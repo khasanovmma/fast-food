@@ -368,6 +368,11 @@ a {
         margin-bottom: 20px;
     }
 }
+@media (max-width: 800px){
+  .receipt__window {
+    width: 65% !important;
+}  
+}
 @media (max-width: 710px) {
     .main__product {
         width: 100%;
@@ -377,10 +382,16 @@ a {
     .main {
         width: 80%;
     }
+    .receipt__window {
+        width: 45% !important;
+    }
 }
 @media (max-width: 500px) {
 
     .main {
         width: 95%;
+    }
+    .receipt__window {
+        width: 65% !important;
     }
 }
